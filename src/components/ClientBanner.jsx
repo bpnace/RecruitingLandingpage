@@ -39,7 +39,7 @@ export default function ClientBannerSection() {
       <div className="client-banner-overlay" />
       <div className="client-banner-content">
         <h2 className="client-banner-title">
-          Unsere Kunden stehen <span className="client-banner-highlight">im Mittelpunkt</span> unseres Handelns.
+          Meine Kunden stehen <span className="client-banner-highlight">im Mittelpunkt</span> meines Handelns.
         </h2>
       </div>
     </section>

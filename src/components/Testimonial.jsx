@@ -5,35 +5,35 @@ const testimonials = [
   {
     name: 'Anna Müller',
     role: 'HR Managerin, TechSolutions GmbH',
-    text: 'Die Zusammenarbeit war äußerst professionell. Wir haben schnell passende Kandidaten gefunden!',
+    text: 'Die Zusammenarbeit mit Ihnen war äußerst professionell. Ich habe schnell passende Kandidaten gefunden!',
     rating: 5,
     img: '/profile/profile1.webp',
   },
   {
     name: 'Maximilian Schulz',
     role: 'Geschäftsführer, Schulz Consulting',
-    text: 'Sehr freundliches Team und exzellenter Service. Absolut empfehlenswert!',
+    text: 'Sehr freundlicher Kontakt und exzellenter Service. Absolut empfehlenswert!',
     rating: 5,
     img: '/profile/profile2.webp',
   },
   {
     name: 'Sophie Becker',
     role: 'Leiterin Personal, MedCare AG',
-    text: 'Schnelle und unkomplizierte Vermittlung von Fachkräften. Wir sind sehr zufrieden.',
+    text: 'Schnelle und unkomplizierte Vermittlung von Fachkräften. Ich bin sehr zufrieden.',
     rating: 4,
     img: '/profile/profile3.webp',
   },
   {
     name: 'Jonas Wagner',
     role: 'Teamleiter, LogistikPro',
-    text: 'Die Agentur hat uns geholfen, unser Team gezielt zu verstärken. Vielen Dank!',
+    text: 'Sie haben mir geholfen, mein Team gezielt zu verstärken. Vielen Dank!',
     rating: 5,
     img: '/profile/profile4.webp',
   },
   {
     name: 'Laura Hoffmann',
     role: 'Recruiterin, FinExpert',
-    text: 'Kompetente Beratung und tolle Kandidatenprofile. Wir kommen gerne wieder!',
+    text: 'Kompetente Beratung und tolle Kandidatenprofile. Ich komme gerne wieder!',
     rating: 4,
     img: '/profile/profile5.webp',
   },
@@ -47,7 +47,7 @@ const testimonials = [
   {
     name: 'Miriam Klein',
     role: 'Personalreferentin, HealthPlus',
-    text: 'Die Agentur hat uns bei der Besetzung mehrerer Schlüsselpositionen unterstützt.',
+    text: 'Sie haben mich bei der Besetzung mehrerer Schlüsselpositionen unterstützt.',
     rating: 5,
     img: '/profile/profile7.webp',
   },
@@ -76,18 +76,18 @@ function DummyProfileIcon() {
 export default function TestimonialSection() {
   return (
     <section className="testimonials-modern-section">
-      <h2 className="testimonials-title">Das sagen unsere Kunden</h2>
+      <h2 className="testimonials-title">Das sagen meine Kunden</h2>
       <div className="testimonials-underline"></div>
-      <p className="testimonials-subheadline">Vertrauen von über 2000 Unternehmen in Deutschland</p>
+      <p className="testimonials-subheadline">Vertrauen von über 200 Unternehmen in Deutschland</p>
       <div className="testimonials-modern-grid">
         {/* Special 'Your testimonial here' card as featured */}
         <div className="testimonial-card featured testimonial-card-future">
           <div className="testimonial-card-text" style={{fontStyle: 'italic', fontWeight: 600}}>
             Ihr Feedback könnte hier stehen!<br />
-            <span style={{fontWeight: 400}}>Teilen Sie Ihre Erfolgsgeschichte mit uns und inspirieren Sie andere Unternehmen!</span><br />
-            Wir freuen uns auf Ihre Zusammenarbeit und Ihr persönliches Statement.<br />
+            <span style={{fontWeight: 400}}>Teilen Sie Ihre Erfahrung mit mir und helfen Sie anderen Unternehmen, die richtige Entscheidung zu treffen.</span><br />
+            Ich freue mich auf Ihre Zusammenarbeit und Ihr persönliches Statement.<br />
             <span style={{fontWeight:400, display:'block', marginTop:'0.7rem'}}>
-              Egal ob Sie ein kleines Start-up oder ein etabliertes Unternehmen sind – Ihre Meinung zählt und hilft anderen, die richtige Entscheidung zu treffen. Werden Sie Teil unserer wachsenden Community zufriedener Kunden!
+              Egal ob Sie ein kleines Start-up oder ein etabliertes Unternehmen sind – Ihre Meinung zählt und hilft anderen, den passenden Partner zu finden.
             </span>
           </div>
           <div style={{width: '100%', textAlign: 'left', marginBottom: '1.1rem'}}>
@@ -96,13 +96,13 @@ export default function TestimonialSection() {
           <div className="testimonial-card-profile" style={{alignItems: 'center', gap: '1.2rem'}}>
             <DummyProfileIcon />
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.3rem'}}>
-              <div className="testimonial-card-name" style={{color: '#b0b0b0'}}>Dein Name</div>
+              <div className="testimonial-card-name" style={{color: '#b0b0b0'}}>Ihr Name</div>
               <div className="testimonial-modern-stars">
                 {[1,2,3,4,5].map(i => (
                   <span key={i} style={{ color: '#E0E0E0', fontSize: '1.1rem' }}>★</span>
                 ))}
               </div>
-              <div className="testimonial-card-role" style={{color: '#b0b0b0'}}>Deine Position</div>
+              <div className="testimonial-card-role" style={{color: '#b0b0b0'}}>Ihre Position</div>
             </div>
           </div>
         </div>

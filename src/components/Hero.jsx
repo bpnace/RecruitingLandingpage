@@ -36,11 +36,11 @@ export default function HeroSection() {
       <div className="hero-section__bg" ref={bgRef} />
       <div className="hero-section__overlay" aria-hidden="true" />
       <div className="hero-section__content">
-        <h1>Recruiting & Personalvermittlung</h1>
-        <p>Egal wie groß Ihr Unternehmen ist – wir finden die passenden Talente.</p>
+        <h1>Persönliches Recruiting für Ihr Unternehmen</h1>
+        <p>Ich unterstütze Sie als unabhängiger Recruiter dabei, die passenden Talente für Ihr Team zu finden – individuell, engagiert und mit persönlicher Beratung.</p>
         <div>
-          <button className="btn-primary">Angebot anfordern</button>
-          <button className="btn-secondary" style={{ marginLeft: '1rem' }}>Unsere Leistungen</button>
+          <button className="btn-primary">Unverbindliches Angebot anfordern</button>
+          <button className="btn-secondary" style={{ marginLeft: '1rem' }}>Mehr über mich</button>
         </div>
       </div>
     </section>

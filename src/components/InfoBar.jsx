@@ -9,13 +9,13 @@ export default function InfoBar() {
         style={{ alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}
       >
         <span style={{ fontSize: '1.08rem', fontWeight: 500, gridColumn: '1 / 4' }}>
-          Möchten Sie mit einem unserer Personalberater sprechen? Geben Sie einfach Ihre Kontaktdaten ein und wir melden uns kurzfristig.
+          Sie möchten direkt mit mir sprechen? Geben Sie einfach Ihre Kontaktdaten ein – ich melde mich persönlich bei Ihnen.
         </span>
         <button
           className="btn-secondary"
           style={{ background: '#fff', color: 'var(--color-primary)', border: 'none', fontWeight: 600, gridColumn: '4 / 5', minWidth: 180 }}
         >
-          Angebot anfordern
+          Rückruf anfordern
         </button>
       </div>
     </div>

@@ -36,14 +36,15 @@ export default function CallbackFormSection() {
       <div className="callback-hero-bg" ref={bgRef} />
       <div className="callback-hero-overlay" />
       <div className="callback-hero-content">
-        <h2 className="callback-hero-title">Rückruf anfordern.</h2>
+        <h2 className="callback-hero-title">Rückruf anfordern</h2>
+        <div className="industries-underline"></div>
         <p className="callback-hero-subtext">
-          Möchten Sie mit einem unserer Berater sprechen? Geben Sie einfach Ihre Kontaktdaten ein und wir melden uns kurzfristig.<br />
-          Alternativ können Sie uns auch per E-Mail kontaktieren.
+          Sie möchten mit mir sprechen? Geben Sie einfach Ihre Kontaktdaten ein – ich rufe Sie persönlich zurück.<br />
+          Alternativ können Sie mir auch gerne eine E-Mail schreiben.
         </p>
         <form className="callback-hero-form">
           <select required className="callback-hero-input">
-            <option>Wie können wir helfen?*</option>
+            <option>Wie kann ich Ihnen helfen?*</option>
             <option>Ich suche Personal</option>
             <option>Ich suche eine Stelle</option>
           </select>
