@@ -25,7 +25,7 @@ export default function NewsSection() {
   return (
     <section className="section container">
       <h2 className="industries-title text-center">Aktuelles & Einblicke aus meiner Recruiting-Praxis</h2>
-      <div className="industries-underline"></div>
+      <div className="news-underline"></div>
       <div className="flex gap-2" style={{justifyContent: 'center', flexWrap: 'wrap'}}>
         {news.map((n, i) => (
           <div key={i} className="card" style={{ background: '#fff', border: '1px solid #e0e0e0', maxWidth: '320px', padding: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: 380 }}>

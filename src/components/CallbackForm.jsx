@@ -38,7 +38,7 @@ export default function CallbackFormSection() {
       <div className="callback-hero-content">
         <h2 className="callback-hero-title">Rückruf anfordern</h2>
         <div className="industries-underline"></div>
-        <p className="callback-hero-subtext">
+        <p className="callback-subtext">
           Sie möchten mit mir sprechen? Geben Sie einfach Ihre Kontaktdaten ein – ich rufe Sie persönlich zurück.<br />
           Alternativ können Sie mir auch gerne eine E-Mail schreiben.
         </p>

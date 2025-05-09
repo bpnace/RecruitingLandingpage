@@ -3,7 +3,7 @@ import '../index.css';
 
 export default function InfoBar() {
   return (
-    <div className="full-width-bg" style={{ background: 'var(--color-primary)', color: '#fff', padding: '1.1rem 0' }}>
+    <div className="full-width-bg" style={{ background: 'var(--color-dark-gray)', color: '#fff', padding: '1.1rem 0' }}>
       <div
         className="grid-4col infobar-grid"
         style={{ alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}
