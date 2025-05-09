@@ -3,7 +3,7 @@ import '../index.css';
 
 export default function Footer() {
   return (
-    <footer className="full-width-bg" style={{ background: 'var(--color-dark-gray)', color: '#fff', padding: '3rem 0 1.5rem 0', marginTop: '2rem' }}>
+    <footer className="full-width-bg" style={{ background: 'var(--color-dark-gray)', color: '#fff', padding: '3rem 0 1.5rem 0' }}>
       <div className="grid-4col" style={{alignItems: 'flex-start'}}>
         <div style={{minWidth: 200}}>
           <div style={{ fontWeight: 700, fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>

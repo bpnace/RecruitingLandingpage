@@ -9,8 +9,8 @@ export default function Header() {
       </div>
       <ul className="navbar-links">
         <li><a href="/">Startseite</a></li>
-        <li><a href="/ueber-uns">Über uns</a></li>
         <li><a href="/stellenangebote">Stellenangebote</a></li>
+        <li><a href="/ueber-uns">Über uns</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
       <a href="#angebot" className="navbar-cta">Angebot anfordern</a>
